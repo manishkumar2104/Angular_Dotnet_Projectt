@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="d-flex flex-column justify-content-center mt-3">
+        <div class="mx-auto mb-2">
+            <h3>All Rental Agreements</h3>
+        </div>
+        <div >
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col col-2">AgreementId</th>
+                    <th scope="col col-2">CarId</th>
+                    <th scope="col col-2">Duration</th>
+                    <th scope="col col-2">TotalCost</th>
+                    <th scope="col col-2">ReturnApplied</th>
+                    <th scope="col col-2">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let agreement of agreements">
+                    <th scope="row">{{agreement.id}}</th>
+                    <td>{{agreement.carId}}</td>
+                    <td>{{agreement.duration}}</td>
+                    <td>{{agreement.totalCost}}</td>
+                    <td>{{agreement.isRequestedForReturn}}</td>
+                    <td><button class="btn btn-primary" [routerLink]="['/viewAgreement', agreement.id]">View Agreement</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <!-- <div *ngIf="!areBooksAvailable" class="d-flex flex-column justify-content-center">
+            <h4 class="mx-auto">You haven't Lented any book yet!</h4>
+            <div class="mx-auto">
+                <button class="btn btn-primary" [routerLink]="['/addBook', id]">Add Book to Lent</button>
+            </div>
+        </div> -->
+    </div>
+</div>

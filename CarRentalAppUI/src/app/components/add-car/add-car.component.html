@@ -1,0 +1,41 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Add Car</h5>
+  
+            <form [formGroup]="addCarForm" (ngSubmit)="addCar()">
+              <div class="mb-3">
+                <label for="maker" class="form-label">Maker**</label>
+                <input type="text" class="form-control" id="maker" name="maker" placeholder="Enter Maker of Car" formControlName="maker">
+                <div style="color: red" *ngIf="maker && maker.invalid && maker.touched">Maker should be atleast of 2 characters</div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="model" class="form-label">Model**</label>
+                <input type="text" class="form-control" id="model" name="model" placeholder="Enter Model of the Car"  formControlName="model">
+                <div style="color: red" *ngIf="model && model.invalid && model.touched">Model should be atleast of 2 characters</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="rentalPrice" class="form-label">Rental Price**</label>
+                <input type="number" class="form-control" id="rentalPrice" name="rentalPrice" placeholder="Enter rental price of the Car"  formControlName="rentalPrice">
+                <div style="color: red" *ngIf="rentalPrice && rentalPrice.invalid && rentalPrice.touched">RentalPrice should be atleast 1000</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="imageUrl" class="form-label">ImageUrl**</label>
+                <input type="url" class="form-control" id="imageUrl" name="imageUrl" placeholder="Enter image url of the Car"  formControlName="imageUrl">
+                <div style="color: red" *ngIf="imageUrl && imageUrl.invalid && imageUrl.touched">ImageUrl should be atleast of 10 characters</div>
+              </div>
+  
+              <div class="d-grid gap-2">
+                <button [disabled]="addCarForm.invalid" type="submit" class="btn btn-primary">Add Car</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

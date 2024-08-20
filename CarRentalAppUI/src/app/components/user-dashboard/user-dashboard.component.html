@@ -1,0 +1,56 @@
+<div class="container-fluid">
+    <div class="d-flex flex-row justify-content-between">
+        <div class="col-2 mx-2 mt-3 p-3" id="search">
+            <form [formGroup]="searchFilter" (ngSubmit)="searchCar()">
+                <div class="mb-3 row g-3 align-items-center">
+                    <input type="text" class="form-control" id="maker" name="maker" placeholder="Maker of Car" formControlName="maker">
+                </div>
+                <div class="mb-3 row g-3 align-items-center">
+                    <input type="text" class="form-control" id="model" name="model" placeholder="Model of Car" formControlName="model">
+                </div>
+                <div class="mb-3 row g-3 align-items-center">
+                    <input type="number" class="form-control" min="1500" id="rent" name="rent" placeholder="Price of Car" formControlName="rent">
+                </div>
+                <div class="d-grid gap-2">
+                    <button [disabled]="!searchCriteriaFilled()" type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </form>
+        </div>
+        <div class="d-flex flex-column col-9" >
+            <div class="d-flex flex-row my-2 car-detail" *ngFor="let car of availableCars">
+                <div class="col-md-4 p-3">
+                    <img src="{{car.imageUrl}}" class="img-fluid rounded h-100">
+                </div>
+                <div class="col-md-4 my-auto mx-2">
+                    <h2 class="my-2 fs-4 text-secondary">
+                        {{car.maker}} <span class="mx-1">|</span>
+                        <span class="text-secondary fs-6">{{car.model}}</span>
+                    </h2>
+                    <h2 class="font-weight-medium fs-6 my-2S text-lg text-success">
+                        👉 No more hidden charges | Free cancellation guarenteed✅
+                    </h2>
+                </div>
+                <div class="col-md-4  my-auto">
+                    <div class="mx-auto h-50 rounded p-5 text-center ">
+                        <!--  status -->
+                        <p class="font-weight-bold text-primary">
+                             Status: Available to Borrow
+                        </p>
+                        <!-- rent per day -->
+                        <p class="text-lg my-2">
+                            ₹ {{car.rentalPrice}} per day
+                        </p>
+                        <button class="btn btn-primary" [routerLink]="['/rentCarPage', car.id]">
+                            <span class="mx-1 text-lg">Rent Now</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div *ngIf="!areCarAvailable">
+            <h2 class="text-center">Sorry</h2>
+            <h3 class="text-center">There aren't any Cars available to rent right now </h3>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,99 @@
+
+<div class="card container mt-4 mb-4 py-3 agreementDetail">
+    <div class="row g-0 ">
+        <!-- Left side for car image -->
+        <div class="col-6 d-flex align-items-center ">
+            <img src="{{carDetail?.imageUrl}}" class="img-fluid rounded-start rounded-end" style="height:80% " alt="Car Image">
+        </div>
+        
+        <!-- Right side for Agreement details -->
+        <div class="col-6  rentDetails d-flex flex-column align-items-center mx-auto">
+            <div class="card-body">
+                <div class="container">
+                    <h4 class="mb-2">Car Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Car Maker</th>
+                                <td>{{carDetail?.maker}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Car Model</th>
+                                <td>{{carDetail?.model}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Car's Rental Price</th>
+                                <td>₹ {{carDetail?.rentalPrice}}/day</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4 class="mb-2">User Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">User Name</th>
+                                <td>{{userDetail?.userName}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Id</th>
+                                <td>{{userDetail?.userId}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Email</th>
+                                <td>{{userDetail?.email}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4 class="mb-2">Previous Rent Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Duration</th>
+                                <td>{{agreement?.duration}} Days</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Total Cost</th>
+                                <td>₹ {{agreement?.totalCost}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4 class="mb-2">Update Rent Details</h4>
+                    <form [formGroup]="updateRentCarForm" (ngSubmit)="updateAgreement()">
+                        <div class="mb-3 col-md-9">
+                            <div class="row align-items-center">
+                                <div class="col-auto pe-2">
+                                    <label for="duration" class="form-label">Updated Duration* :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="number" class="form-control" id="duration" name="duration" placeholder="Enter Duration in days" formControlName="duration">
+                                </div>
+                            </div>
+                            <div style="color: red" *ngIf="duration && duration.invalid && duration.touched">Duration should atleast be of 1Day</div>
+                        </div>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Updated Total Cost</th>
+                                    <td>₹ {{ (updateRentCarForm.get('duration')?.value||1)*carDetail?.rentalPrice }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-success" type="submit" [disabled]="updateRentCarForm.invalid" >Update Agreement</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

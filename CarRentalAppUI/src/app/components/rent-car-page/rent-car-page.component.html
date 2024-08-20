@@ -1,0 +1,30 @@
+<div class="card container mt-5">
+    <div class="row g-0 ">
+        <!-- Left side for book image -->
+        <div class="col-md-6 d-flex align-items-center ">
+            <img [src]="car?.imageUrl" class="img-fluid rounded-start rounded-end" style="height:80% " alt="Car Image">
+        </div>
+        
+        <!-- Right side for book details -->
+        <div class="col-md-6  rentDetails d-flex align-items-center mx-auto">
+            <div class="card-body">
+                <h3 class="card-title">Car Detail</h3>
+                <h4 class="card-text">Maker: {{car?.maker}}</h4>
+                <h5 class="card-text">Model: {{car?.model}}</h5>
+                <h5 class="card-text">RentalPrice: ₹ {{car?.rentalPrice}}/day</h5>
+                <form [formGroup]="rentCarForm">
+                    <div class="mb-3 col-md-5">
+                      <label for="duration" class="form-label">Duration**</label>
+                      <input type="number" class="form-control" id="duration" name="duration" placeholder="Enter Duration in days" formControlName="duration">
+                      <div style="color: red" *ngIf="duration && duration.invalid && duration.touched">Duration should atleast be of 1Day</div>
+                    </div>
+                </form>
+                <!-- Button to borrow the book -->
+                <!-- <a class="btn btn-primary col-md-5" >Create Agreement</a> -->
+                <div class="d-grid gap-2 col-md-5">
+                    <button [disabled]="rentCarForm.invalid" type="submit" class="btn btn-primary" [routerLink]="['/agreement', id, rentCarForm.value.duration]">Create Agreement</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="container">
+    <h2 class="my-3 fs-3 text-secondary text-center text-decoration-underline">All Cars</h2>
+    <div class="d-flex flex-column col-9 mx-auto" >
+        <div class="d-flex flex-row my-2  car-detail" *ngFor="let car of cars" >
+            <div class="col-md-4 p-3">
+                <img src="{{car.imageUrl}}" class="img-fluid rounded h-100">
+            </div>
+            <div class="col-md-4 my-auto mx-2">
+                <h2 class="my-2 fs-4 text-secondary">
+                    {{car.maker}} <span class="mx-1">|</span>
+                    <span class="text-secondary fs-6">{{car.model}}</span>
+                </h2>
+                <h2 class="font-weight-medium fs-6 my-2S text-lg text-success">
+                    👉 No more hidden charges | Free cancellation guarenteed✅
+                </h2>
+            </div>
+            <div class="col-md-4  my-auto">
+                <div class="mx-auto h-50 rounded p-5 text-center ">
+                    <!--  status -->
+                    <!-- <p class="font-weight-bold text-primary">
+                         Status: Available
+                    </p> -->
+                    <!-- rent per day -->
+                    <p class="text-lg my-2">
+                        ₹ {{car.rentalPrice}} per day
+                    </p>
+                    <button class="btn btn-warning mb-2" routerLink="['']">
+                        <span class="mx-1 text-lg" [routerLink]="['/updateCar', car.id]">Update Car Details</span>
+                    </button>
+                    <button class="btn btn-danger" [disabled]="!car.isAvailableForRent" (click)="deleteCar(car.id)">
+                        <span class="mx-1 text-lg">Delete Car</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>

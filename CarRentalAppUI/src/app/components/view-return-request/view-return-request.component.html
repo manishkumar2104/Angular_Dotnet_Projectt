@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="d-flex flex-column justify-content-center mt-3">
+        <div class="mx-auto mb-2">
+            <h3>All Rental Agreements</h3>
+        </div>
+        <div >
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col col-2">AgreementId</th>
+                    <th scope="col col-2">CarId</th>
+                    <th scope="col col-2">Duration</th>
+                    <th scope="col col-2">TotalCost</th>
+                    <th scope="col col-2">ReturnRequested</th>
+                    <th scope="col col-2">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let agreement of agreements">
+                    <th scope="row">{{agreement.id}}</th>
+                    <td>{{agreement.carId}}</td>
+                    <td>{{agreement.duration}}</td>
+                    <td>{{agreement.totalCost}}</td>
+                    <td>{{agreement.isRequestedForReturn}}</td>
+                    <td>
+                        <span><button type="submit" class="btn btn-success" (click)="acceptReturnRequest(agreement.id)">Accept</button></span>
+                        <span><button type="submit" class="btn btn-danger" (click)="rejectReturnRequest(agreement.id)">Reject</button></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

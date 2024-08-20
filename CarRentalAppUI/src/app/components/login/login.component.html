@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Login</h5>
+  
+            <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email**</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" formControlName="email">
+                <div style="color: red" *ngIf="email && email.invalid && email.touched">Invalid email</div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="password" class="form-label">Password**</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password"  formControlName="password">
+                <div style="color: red" *ngIf="password && password.invalid && password.touched">Password should be atleast of 6 characters</div>
+              </div>
+  
+              <div class="d-grid gap-2">
+                <button [disabled]="loginForm.invalid" type="submit" class="btn btn-primary">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

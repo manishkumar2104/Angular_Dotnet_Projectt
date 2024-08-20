@@ -1,0 +1,87 @@
+
+<div class="card container mt-4 mb-4 py-3 agreementDetail">
+    <div class="row g-0 ">
+        <!-- Left side for car image -->
+        <div class="col-6 d-flex align-items-center ">
+            <img src="{{carDetail?.imageUrl}}" class="img-fluid rounded-start rounded-end" style="height:80% " alt="Car Image">
+        </div>
+        
+        <!-- Right side for Agreement details -->
+        <div class="col-6  rentDetails d-flex flex-column align-items-center mx-auto">
+            <div class="card-body">
+                <div class="container">
+                    <h4 class="mb-2">Car Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Car Maker</th>
+                                <td>{{carDetail?.maker}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Car Model</th>
+                                <td>{{carDetail?.model}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Car's Rental Price</th>
+                                <td>₹ {{carDetail?.rentalPrice}}/day</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4 class="mb-2">User Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">User Name</th>
+                                <td>{{userDetail?.userName}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Id</th>
+                                <td>{{userDetail?.userId}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Email</th>
+                                <td>{{userDetail?.email}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4 class="mb-2">Rent Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Duration</th>
+                                <td>{{agreement?.duration}} Days</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Total Cost</th>
+                                <td>₹ {{agreement?.totalCost}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container" *ngIf="agreement?.isRequestedForReturn && agreement.isReturnRequestAcceptedByAdmin===null">
+                    <h6>Return Request neither Accepted nor rejected by Admin.</h6>
+                </div>
+                <div class="container" *ngIf="agreement?.isRequestedForReturn && agreement.isReturnRequestAcceptedByAdmin===true">
+                    <h6>Return Request Accepted by Admin.</h6>
+                </div>
+                <div class="container" *ngIf="agreement?.isRequestedForReturn && agreement.isReturnRequestAcceptedByAdmin===false">
+                    <h6>Return Request rejected by Admin.</h6>
+                </div>
+                <div class="row">
+                    <div class="col" *ngIf="agreement?.isRequestedForReturn">
+                        <button class="btn btn-warning" routerLink="/userAgreements">Goto Agreements Page</button>
+                    </div>
+                    <div class="col" *ngIf="!agreement?.isRequestedForReturn">
+                        <button class="btn btn-success" (click)="requestReturn()">Request Return</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

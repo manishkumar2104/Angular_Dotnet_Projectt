@@ -1,0 +1,108 @@
+<!-- <div class="mx-2 my-2">
+    <div class="col col-6">
+        <div class=" d-flex align-items-center ">
+            <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https:%2f%2fcdni.autocarindia.com%2fExtraImages%2f20200806071643_Tata-Nexon-EV.jpg&h=795&w=1200&c=0" class="img-fluid rounded-start rounded-end" style="width:70% " alt="Car Image">
+        </div>
+    </div>
+    <div class="col col-6">
+        
+    </div>
+</div> -->
+<div class="card container mt-4 mb-4 py-3 agreementDetail">
+    <div class="row g-0 ">
+        <!-- Left side for book image -->
+        <div class="col-6 d-flex align-items-center ">
+            <img src="{{car?.imageUrl}}" class="img-fluid rounded-start rounded-end" style="height:80% " alt="Car Image">
+        </div>
+        
+        <!-- Right side for book details -->
+        <div class="col-6  rentDetails d-flex flex-column align-items-center mx-auto">
+            <div class="card-body">
+                <!-- <h3 class="card-title">Car Details</h3> -->
+                <!-- <h5 class="card-text">Car Maker: Tata</h5>
+                <h5 class="card-text">Car Model: Nano</h5>
+                <h5 class="card-text">Car's RentalPrice: ₹ 1000/day</h5> -->
+                <div class="container">
+                    <h4 class="mb-2">Car Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Car Maker</th>
+                                <td>{{car?.maker}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Car Model</th>
+                                <td>{{car?.model}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Car's Rental Price</th>
+                                <td>₹ {{car?.rentalPrice}}/day</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4 class="mb-2">User Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">User Name</th>
+                                <td>{{userDetail?.userName}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Id</th>
+                                <td>{{userDetail?.userId}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Email</th>
+                                <td>{{userDetail?.email}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4 class="mb-2">Rent Details</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Duration</th>
+                                <td>{{duration}} Days</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Total Cost</th>
+                                <td>₹ {{duration*car?.rentalPrice}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-warning" [routerLink]="['/rentCarPage', car?.id]">Update Agreement</button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-success" (click)="createAgreement()">Accept Agreement</button>
+                    </div>
+                </div>
+                
+                <!-- <h3 class="card-title">User Details</h3>
+                <h5 class="card-text">User Name: Shreshtha</h5>
+                <h5 class="card-text">User Id: 2AFC2E55-97DC-43ED-9A20-67F2457EB585</h5>
+                <h5 class="card-text">User Email Address: shreshtha@abc.com</h5> -->
+            </div>
+            <!-- <div class="card-body">
+                <h3 class="card-title">Car Detail</h3>
+                <h4 class="card-text">Maker: Tata</h4>
+                <h5 class="card-text">Model: Nano</h5>
+                <h5 class="card-text">RentalPrice: ₹ 1000/day</h5>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Car Detail</h3>
+                <h4 class="card-text">Maker: Tata</h4>
+                <h5 class="card-text">Model: Nano</h5>
+                <h5 class="card-text">RentalPrice: ₹ 1000/day</h5>
+            </div> -->
+        </div>
+    </div>
+</div>
