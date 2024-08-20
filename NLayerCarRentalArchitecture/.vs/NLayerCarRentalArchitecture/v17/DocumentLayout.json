@@ -1,0 +1,528 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\iservices\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\iservices\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\carrentalbal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\carrentalbal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\irepository\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\irepository\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\repository\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\repository\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|solutionrelative:nlayercarrentalarchitecture\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|solutionrelative:nlayercarrentalarchitecture\\nlayercarrentalarchitecture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture\\controllers\\agreementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|solutionrelative:nlayercarrentalarchitecture\\controllers\\agreementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\models\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\models\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|solutionrelative:nlayercarrentalarchitecture\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|solutionrelative:nlayercarrentalarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\repository\\agreementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\repository\\agreementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\irepository\\iagreementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\irepository\\iagreementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\irepository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\irepository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\migrations\\20240815170914_db connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\migrations\\20240815170914_db connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\nlayercarrentalarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B835B05D-8BCE-44FB-9FB9-76307378EB46}|NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj|solutionrelative:nlayercarrentalarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Migrations\\20240815091106_ Creating DB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarRentalDAL\\Migrations\\20240815091106_ Creating DB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\dto\\authenticateduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\dto\\authenticateduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\services\\agreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\services\\agreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\models\\agreementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\models\\agreementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\models\\validaterequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\models\\validaterequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\iservices\\iagreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\iservices\\iagreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentaldal\\entities\\rentalagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119933DB-831B-4C0F-A118-82862CD7BEA9}|CarRentalDAL\\CarRentalDAL.csproj|solutionrelative:carrentaldal\\entities\\rentalagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\models\\carfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\models\\carfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|c:\\users\\manish kumar\\onedrive\\desktop\\carrentalapplication\\nlayercarrentalarchitecture\\carrentalbal\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673F088D-7D66-48B3-AE36-333DE14B40F7}|CarRentalBAL\\CarRentalBAL.csproj|solutionrelative:carrentalbal\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NLayerCarRentalArchitecture\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NLayerCarRentalArchitecture\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\DB\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\DB\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\DB\\AppDBContext.cs",
+              "RelativeToolTip": "CarRentalDAL\\DB\\AppDBContext.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwEwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Entities\\Car.cs",
+              "RelativeToolTip": "CarRentalDAL\\Entities\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\IRepository\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\IRepository\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\IRepository\\ICarRepository.cs",
+              "RelativeToolTip": "CarRentalDAL\\IRepository\\ICarRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Repository\\CarRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Repository\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Repository\\CarRepository.cs",
+              "RelativeToolTip": "CarRentalDAL\\Repository\\CarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarRentalBAL.csproj",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\CarRentalBAL.csproj",
+              "RelativeDocumentMoniker": "CarRentalBAL\\CarRentalBAL.csproj",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\CarRentalBAL.csproj",
+              "RelativeToolTip": "CarRentalBAL\\CarRentalBAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T09:09:46.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\IServices\\ICarService.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\IServices\\ICarService.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\IServices\\ICarService.cs",
+              "RelativeToolTip": "CarRentalBAL\\IServices\\ICarService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Services\\CarService.cs",
+              "RelativeToolTip": "CarRentalBAL\\Services\\CarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NLayerCarRentalArchitecture.csproj",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj",
+              "RelativeDocumentMoniker": "NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj",
+              "RelativeToolTip": "NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T09:09:46.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\CarModel.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Models\\CarModel.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\CarModel.cs",
+              "RelativeToolTip": "CarRentalBAL\\Models\\CarModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgreementController.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Controllers\\AgreementController.cs",
+              "RelativeDocumentMoniker": "NLayerCarRentalArchitecture\\Controllers\\AgreementController.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Controllers\\AgreementController.cs",
+              "RelativeToolTip": "NLayerCarRentalArchitecture\\Controllers\\AgreementController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAADwv5MAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Repository\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "CarRentalDAL\\Repository\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Helper\\Helper.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Helper\\Helper.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Helper\\Helper.cs",
+              "RelativeToolTip": "CarRentalBAL\\Helper\\Helper.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwCgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Services\\AuthService.cs",
+              "RelativeToolTip": "CarRentalBAL\\Services\\AuthService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\LoginUser.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Models\\LoginUser.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\LoginUser.cs",
+              "RelativeToolTip": "CarRentalBAL\\Models\\LoginUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "NLayerCarRentalArchitecture\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Controllers\\CarController.cs",
+              "RelativeToolTip": "NLayerCarRentalArchitecture\\Controllers\\CarController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AgreementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Repository\\AgreementRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Repository\\AgreementRepository.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Repository\\AgreementRepository.cs",
+              "RelativeToolTip": "CarRentalDAL\\Repository\\AgreementRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwDQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAgreementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\IRepository\\IAgreementRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\IRepository\\IAgreementRepository.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\IRepository\\IAgreementRepository.cs",
+              "RelativeToolTip": "CarRentalDAL\\IRepository\\IAgreementRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Program.cs",
+              "RelativeDocumentMoniker": "NLayerCarRentalArchitecture\\Program.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\Program.cs",
+              "RelativeToolTip": "NLayerCarRentalArchitecture\\Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAQwDAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\IRepository\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\IRepository\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\IRepository\\IAuthRepository.cs",
+              "RelativeToolTip": "CarRentalDAL\\IRepository\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240815170914_DB connection.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Migrations\\20240815170914_DB connection.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Migrations\\20240815170914_DB connection.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Migrations\\20240815170914_DB connection.cs",
+              "RelativeToolTip": "CarRentalDAL\\Migrations\\20240815170914_DB connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T17:09:14.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240815091106_ Creating DB.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Migrations\\20240815091106_ Creating DB.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Migrations\\20240815091106_ Creating DB.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Migrations\\20240815091106_ Creating DB.cs",
+              "RelativeToolTip": "CarRentalDAL\\Migrations\\20240815091106_ Creating DB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:11:06.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AgreementService.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Services\\AgreementService.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Services\\AgreementService.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Services\\AgreementService.cs",
+              "RelativeToolTip": "CarRentalBAL\\Services\\AgreementService.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAIwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\appsettings.json",
+              "RelativeDocumentMoniker": "NLayerCarRentalArchitecture\\appsettings.json",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\NLayerCarRentalArchitecture\\appsettings.json",
+              "RelativeToolTip": "NLayerCarRentalArchitecture\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T09:09:46.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticatedUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\DTO\\AuthenticatedUserDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\DTO\\AuthenticatedUserDTO.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\DTO\\AuthenticatedUserDTO.cs",
+              "RelativeToolTip": "CarRentalBAL\\DTO\\AuthenticatedUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AgreementModel.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\AgreementModel.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Models\\AgreementModel.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\AgreementModel.cs",
+              "RelativeToolTip": "CarRentalBAL\\Models\\AgreementModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ValidateRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\ValidateRequestModel.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Models\\ValidateRequestModel.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\ValidateRequestModel.cs",
+              "RelativeToolTip": "CarRentalBAL\\Models\\ValidateRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAgreementService.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\IServices\\IAgreementService.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\IServices\\IAgreementService.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\IServices\\IAgreementService.cs",
+              "RelativeToolTip": "CarRentalBAL\\IServices\\IAgreementService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RentalAgreement.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Entities\\RentalAgreement.cs",
+              "RelativeDocumentMoniker": "CarRentalDAL\\Entities\\RentalAgreement.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalDAL\\Entities\\RentalAgreement.cs",
+              "RelativeToolTip": "CarRentalDAL\\Entities\\RentalAgreement.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CarFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\CarFilterModel.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\Models\\CarFilterModel.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\Models\\CarFilterModel.cs",
+              "RelativeToolTip": "CarRentalBAL\\Models\\CarFilterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CarRentalBAL\\IServices\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\manish kumar\\OneDrive\\Desktop\\CarRentalApplication\\NLayerCarRentalArchitecture\\CarRentalBAL\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "CarRentalBAL\\IServices\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:46.947Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
